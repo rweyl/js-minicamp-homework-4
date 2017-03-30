@@ -81,10 +81,10 @@ describe('addReverseString(StringPrototype)', function(){
 	});
 });
 
-describe('nFactorial(n)', function() {
+describe('Factorial(n)', function() {
 	it('should return the factorial of n', function() {
-		expect(exercises.nFactorial(5)).toBe(120);
-		expect(exercises.nFactorial(15)).toBe(1307674368000);
+		expect(exercises.Factorial(5)).toBe(120);
+		expect(exercises.Factorial(15)).toBe(1307674368000);
 	});
 });
 
